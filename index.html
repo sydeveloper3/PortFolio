@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <script src="https://kit.fontawesome.com/7e8777e6ff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+       
+                <div class="logo">
+                    <i class="fa-solid fa-code"></i>
+
+                </div>
+
+                <ul id="slidemenu">
+                    <li><a href="#header"> Home</a></li>
+                    <li><a href="#about"> about</a></li>
+                    <li><a href="#services"> project</a></li>
+                    <li><a href="#portfolio"> skills </a></li>
+                    <li><a href="#contact"> contact us</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span>S</span>oftware Developer</p>
+                <h1> Hi, I am <span>Saurabh Yadav</span></h1>
+            </div>
+        </div>
+
+    </div>
+    <!-- -------- about section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/mypic3-removebg-preview.png">
+                </div>
+                <div class="about-col-2 ">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Dynamic and versatile web developer with a knack for problem-solving. I thrive in fast-paced 
+                        environments, adapting quickly to new challenges and delivering efficient and elegant 
+                        solutions that exceed client expectations
+                        </p>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick ="opentab('education')">Education </p>
+                            <p class="tab-links " onclick ="opentab('experience') ">Experience</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Front End</span><br> HTML5    CSS3    JavaScript    BootStrap.</li>
+                                <li><span>Back- End</span><br> ExpressJs   Nodejs.</li>
+                                <li><span>DataBase </span><br> MongoDB    Mysql. </li>
+                                <li><span>Languages </span><br> Java    C.<br>  </li>
+                                <li><span>Extra </span><br> Github </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Post - Graduation</span><br> Masters of Computer Application<br> CGPA - 7.7 <br> (Persuing)</li>
+                                <li><span>Graduation</span><br> Bachelors of Arts <br> English(Hons)</li>
+                                <li><span>Intermidiate</span><br> CBSE <br> Percentage - 70% </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Experience</span><br> null</li>
+                         
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------ services --> 
+    <!-- <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Project</h1>
+            
+            <div class="service-list">
+               
+                <div>
+                    <i class="fa-brands fa-amazon"></i>
+                    <h2>E-commerce website clone</h2>
+                    <p>Amazon Clone is a web application developed using React and Firebase technologies. It is a project
+                        that replicates the core functionalities of Amazon.com, such as product browsing, searching,
+                        adding to cart, and checkout with a great UI experience.
+                         .</p>
+                         <a href="#"> learn more</a>
+                </div>
+                <div >
+                    <i class="fa-brands fa-amazon"></i>
+                    <h2>Spotify clone</h2>
+                    <p>Spotify clone is a music streaming platform that helps you gain an advantage in the lucrative
+                        streaming industry. An app similar to Spotify helps you offer millions of songs of different genres
+                        to users.<br>
+                        This Clone is created with Frontend Konwledge.I used HTML5, CSS3 and Javascript.
+                         .</p>
+                         <a href="#"> learn more</a>
+                </div>
+                <div >
+                    <i class="fa-brands fa-amazon"></i>
+                    <h2>Simon game</h2>
+                    <p>Simon games challenge memory retention capacity by generating a sequence of colors for a player
+                        to repeat. After each successful series of presses, “Simon” repeats the list followed by an
+                        additional random color. Game play continues until the player makes a mistake.<br>
+                        In this game I used HTML5, CSS3 and Javascript.This game is fully responsive.
+                         </p>
+                         <a href="#"> learn more</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div> -->
+    <!-- ----------------------------- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/weather5.avif" >
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>I developed a weather app that provides real-time weather information based on the user's
+                            location.</p>
+                        <a href="https://sydeveloper3.github.io/Wheathers/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/simon final.jpeg" >
+                    <div class="layer">
+                        <h3>Simon Game</h3>
+                        <p>The Simon Says game is a children's activity typically played by three or more participants. In the game, one player takes on the role of "Simon" and gives instructions to the other players.</p>
+                        <a href="https://sydeveloper3.github.io/games/"><i  class="fa-sharp fa-solid fa-arrow-up-right-from-square" ></i> </a>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" >
+                    <div class="layer">
+                        <h3>Amazon Clone</h3>
+                        <p>In this web application.I made a Front-end replica of the Amazon website.where users get a similar experience on a real website.</p>
+                        <a href="https://sydeveloper3.github.io/Ecommerce--Website/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                       
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+            
+
+        </div>
+
+
+    </div>
+    <!-- ----------------------------------------contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>saurabhyadav6696@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>+91 8303255703</p>
+                    <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sydeveloper03"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/sydeveloper3?t=pznDktkvq7jt-8ViibL7Sg&s=09"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://github.com/sydeveloper3"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linktr.ee/sydeveloper3"><i class="fa-brands fa-link"></i></a>
+                </div>
+                <!--   download button -->
+                <a href="images/SaurabhResumae1.pdf" download class="btn btn2">Download CV</a>
+                    
+                </div>
+                <div class="contact-right">
+                    <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name=""rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------Copyright -->
+    <div class="copyright">
+       <p> Copyright @ S@urabh Y@d@v.Made with the help of Decent </p>
+    </div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        // event.currentTarget.classList.add("active-tab");
+        document.getElementById(tabname).classList.add("active-tab")
+      
+    }
+</script>
+<script>
+    var sidemeu = document.getElementById("slidemenu");
+    function openmenu(){
+        sidemeu.style.right= "0";
+    }
+    function closemenu(){
+        sidemeu.style.right= "-200px";
+    }
+</script>
+    
+</body>
+</html>
